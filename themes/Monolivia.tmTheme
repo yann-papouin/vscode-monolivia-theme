@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Monolivia</string>
+	<key>author</key>
+	<string>Yann Papouin</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#272D30</string>
+				<key>caret</key>
+				<string>#FFFFFFA6</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+				<key>invisibles</key>
+				<string>#FFFFFF40</string>
+				<key>lineHighlight</key>
+				<string>#FFFFFF0F</string>
+				<key>selection</key>
+				<string>#253B76</string>
+				<key>selectionHighlight</key>
+				<string>#FDFFF299</string>
+				<key>inactiveSelection</key>
+				<string>#FDFFF233</string>
+				<key>hoverHighlight</key>
+				<string>#000000</string>
+				<key>referenceHighlight</key>
+				<string>#4E94CE88</string>
+				<key>guide</key>
+				<string>#FFFFFF22</string>
+				<key>findRangeHighlight</key>
+				<string>#3A3D41</string>
+				<key>findMatchHighlight</key>
+				<string>#000000</string>
+				<key>currentFindMatchHighlight</key>
+				<string>#515C6A</string>
+				<key>wordHighlight</key>
+				<string>#4E94CE</string>
+				<key>wordHighlightStrong</key>
+				<string>#004972</string>
+				<key>activeLinkForeground</key>
+				<string>#4E94CE</string>
+				<key>gotoDefinitionLinkForeground</key>
+				<string>#4E94CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#AEAEAE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D8FA3C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF7F2D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FBDE2D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FBDE2D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string, meta.verbatim</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F4DA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support</string>
+			<key>scope</key>
+			<string>support</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8DA6CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid – Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#AB2A1D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid – Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#9D1E15</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Superclass</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF6400</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>string constant.other.placeholder</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF6400</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta.function-call.py</string>
+			<key>scope</key>
+			<string>meta.function-call.py</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#BECDE6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta.tag</string>
+			<key>scope</key>
+			<string>meta.tag, meta.tag entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7F90AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity.name.section</string>
+			<key>scope</key>
+			<string>entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml variant</string>
+			<key>scope</key>
+			<string>keyword.type.variant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D5E0F3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml infix operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.infix</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8DA6CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml prefix operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.prefix</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8DA6CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml f-p infix operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.infix.floating-point</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml f-p prefix operator</string>
+			<key>scope</key>
+			<string>source.ocaml keyword.operator.symbol.prefix.floating-point</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OCaml f-p constant</string>
+			<key>scope</key>
+			<string>source.ocaml constant.numeric.floating-point</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LaTeX environment</string>
+			<key>scope</key>
+			<string>text.tex.latex meta.function.environment</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFA08</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LaTeX environment (nested)</string>
+			<key>scope</key>
+			<string>text.tex.latex meta.function.environment meta.function.environment</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#7A96FA08</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latex support</string>
+			<key>scope</key>
+			<string>text.tex.latex support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FBDE2D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PList unquoted string</string>
+			<key>scope</key>
+			<string>source.plist string.unquoted, source.plist keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<dict>
+			<key>name</key>
+			<string>C# preprocessor KEYWORD</string>
+			<key>scope</key>
+			<string>source.cs meta.preprocessor.cs keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#699ACF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# preprocessor PUNCTUATION</string>
+			<key>scope</key>
+			<string>source.cs meta.preprocessor.cs punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#699ACF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# preprocessor ENTITY</string>
+			<key>scope</key>
+			<string>source.cs meta.preprocessor.cs entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#699ACF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# preprocessor STRING</string>
+			<key>scope</key>
+			<string>source.cs meta.preprocessor.cs string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#699ACF</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Using</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.using.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Namespace TYPE</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.namespace.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Namespace NAME</string>
+			<key>scope</key>
+			<string>source.cs entity.name.type.namespace.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Class TYPE</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.class.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Class NAME</string>
+			<key>scope</key>
+			<string>source.cs entity.name.type.class.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#82E421</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>C# Enum TYPE</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.enum.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Enum NAME</string>
+			<key>scope</key>
+			<string>source.cs entity.name.type.enum.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#82E421</string>
+			</dict>
+		</dict>
+
+
+
+		<dict>
+			<key>name</key>
+			<string>C# Storage MODIFIER</string>
+			<key>scope</key>
+			<string>source.cs storage.modifier.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Storage TYPE</string>
+			<key>scope</key>
+			<string>source.cs storage.type.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#82E421</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Storage TYPE</string>
+			<key>scope</key>
+			<string>source.cs keyword.type.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>C# Get</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.get.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Set</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.set.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# Variable FIELD</string>
+			<key>scope</key>
+			<string>source.cs entity.name.variable.field.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#D3D7CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Variable LOCAL</string>
+			<key>scope</key>
+			<string>entity.name.variable.local.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3D7CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Variable PROPERTY</string>
+			<key>scope</key>
+			<string>source.cs variable.other.object.property.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#D3D7CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Variable NAME</string>
+			<key>scope</key>
+			<string>source.cs variable.other.readwrite.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#D3D7CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Enum MEMBER</string>
+			<key>scope</key>
+			<string>source.cs entity.name.variable.enum-member.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3D7CE</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# OBJECT</string>
+			<key>scope</key>
+			<string>source.cs variable.other.object.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3D7CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# PARAMETER</string>
+			<key>scope</key>
+			<string>source.cs entity.name.variable.parameter.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBD799</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>C# RETURN</string>
+			<key>scope</key>
+			<string>source.cs keyword.control.flow.return.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# NEW</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.new.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# THIS</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.this.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# BASE</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.base.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# VAR</string>
+			<key>scope</key>
+			<string>source.cs keyword.other.var.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B274AA</string>
+			</dict>
+		</dict>
+		
+
+		<dict>
+			<key>name</key>
+			<string>C# NULL</string>
+			<key>scope</key>
+			<string>source.cs constant.language.null.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#D1456F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# BOOLEAN</string>
+			<key>scope</key>
+			<string>source.cs constant.language.boolean</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#D35015</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>C# CONTROL</string>
+			<key>scope</key>
+			<string>source.cs keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# FUNCTION METHOD</string>
+			<key>scope</key>
+			<string>source.cs entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# OPERATOR</string>
+			<key>scope</key>
+			<string>source.cs keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		
+		
+		<dict>
+			<key>name</key>
+			<string>C# COMMENT</string>
+			<key>scope</key>
+			<string>source.cs comment.line.double-slash.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#666764</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# COMMENT</string>
+			<key>scope</key>
+			<string>source.cs comment.block.documentation.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#888a85</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# COMMENT</string>
+			<key>scope</key>
+			<string>source.cs comment.block.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a2a49e</string>
+			</dict>
+		</dict>
+		
+
+		<dict>
+			<key>name</key>
+			<string>C# STRING</string>
+			<key>scope</key>
+			<string>string.quoted.double.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F4DA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# STRING</string>
+			<key>scope</key>
+			<string>string.quoted.single.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F48E00</string>
+			</dict>
+		</dict>
+
+		
+	</array>
+	<key>uuid</key>
+	<string>0541BB31-5B39-415C-B2BB-15203216F217</string>
+</dict>
+</plist>

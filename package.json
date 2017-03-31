@@ -1,0 +1,22 @@
+{
+    "name": "theme-monolivia",
+    "displayName": "Monolivia Theme for C#",
+    "description": "Oblivion color theme from Monodevelop",
+    "version": "0.0.1",
+    "publisher": "yannpapouin",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monolivia",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monolivia.tmTheme"
+            }
+        ]
+    }
+}
