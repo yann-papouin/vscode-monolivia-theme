@@ -648,7 +648,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D3D7CE</string>
+				<string>#c2d0eb</string>
 			</dict>
 		</dict>
 
@@ -866,6 +866,61 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>C# Grammar Extended STATIC</string>
+			<key>scope</key>
+			<string>entity.name.class.static.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#07cf28</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Grammar Extended FUNCTION</string>
+			<key>scope</key>
+			<string>entity.name.function.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d4c883</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Grammar Extended DECIMAL SEPARATOR</string>
+			<key>scope</key>
+			<string>punctuation.separator.decimal.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#efffa9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Grammar Extended NUMERIC TYPE</string>
+			<key>scope</key>
+			<string>keyword.numeric.type.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#efffa9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C# Grammar Extended NUMERIC EXPONENT</string>
+			<key>scope</key>
+			<string>keyword.numeric.exponent.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#efffa9</string>
+			</dict>
+		</dict>
 		
 	</array>
 	<key>uuid</key>
