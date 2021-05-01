@@ -2,7 +2,7 @@
     "name": "theme-monolivia",
     "displayName": "Monolivia Theme for C#",
     "description": "Oblivion color theme from Monodevelop",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "yannpapouin",
     "engines": {
         "vscode": "^1.10.0"

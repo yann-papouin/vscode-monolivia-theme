@@ -3,7 +3,7 @@
 A theme made to mimic the Monodevelop Oblivion Theme.
 It is essentially compatible with C# language keywords defined by Omnisharp. 
 
-* [The original github repo](https://github.com/yann-papouin/vscode-monolivia-theme)
+* [Github repo](https://github.com/yann-papouin/vscode-monolivia-theme)
 
 ## Screenshot
 ---
@@ -15,7 +15,7 @@ Initial theme based on [Blackboard TextMate Theme](http://colorsublime.com/theme
 
 ## How-To
 
-To quickly identify the selection, bind the `Developer: Inspecter Editor Tokens and Scopes` action. It's a lot easier to create/edit a them with this
+To quickly identify the selection, bind the `Developer: Inspecter Editor Tokens and Scopes` action. It's a lot easier to create/edit a theme with this
 action shortcut.
 
 ```
